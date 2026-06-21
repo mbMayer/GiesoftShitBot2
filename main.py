@@ -772,7 +772,7 @@ def build_session() -> AiohttpSession:
 
 async def main():
     # ВАЖНО: не храните токен в коде, лучше задайте переменную окружения BOT_TOKEN.
-    token = "8153684081:AAGUbfR8Kqa1Oty1nUurQ8iDQlHMsxnwyf8"
+    token = "8153684081:AAHpghEV85aLf4Ibo25jq6jigItT4qU4uuw"
     if not token:
         raise RuntimeError("BOT_TOKEN не задан в переменных окружения.")
 
